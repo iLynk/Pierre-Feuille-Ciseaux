@@ -1,0 +1,40 @@
+html{
+    background-image: linear-gradient(90deg, #FBDA61 0%, #FF5ACD 100%);    
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+h1{
+    padding: 2.5rem 1rem;
+    font-size: 3.5rem;
+    border: 3px solid white;
+    border-radius: 4rem;
+}
+
+h2{
+    padding: 1rem 1rem;
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+img{
+    width: 100px;
+}
+
+.choices > div {
+    display: inline-block;
+    margin: 0 1rem;
+    transition: all 0.4s ease-in-out;
+    border: 4px solid white;
+    border-radius: 5rem;
+    padding: 50px;
+}
+
+.choices > div:hover{
+    transform: scale(110%);
+    cursor: pointer;
+}
